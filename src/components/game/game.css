@@ -1,0 +1,12 @@
+
+body{
+    text-align: center;
+    height: 100vh;
+}
+.title-game{
+    padding: 10px;
+    /* top:0; */
+    font-size: 30px;
+    font-weight: 700;
+    
+}

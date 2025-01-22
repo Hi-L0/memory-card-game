@@ -1,0 +1,74 @@
+.frame-wrapper{
+    transition: transform 0.5s;
+    /* box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.3); */
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.frame,
+.frame-back{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 1px solid black;
+    height: auto;
+    gap: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    position:absolute;
+    
+    /* backface-visibility: hidden; */
+}
+.frame{
+    /* background: #B4DD13;  */
+    /* grid-template-columns: repeat(8, 1fr); */
+    background:linear-gradient(226deg, #B4DD13 20%, #fff 84% 84%);
+}
+
+.frame-back{
+    text-align: center;
+    transform: rotateY(180deg);
+    background-color: white;
+}
+
+.card-wrapper{
+    width:48%;
+    height:190px;
+}
+
+.frame-wrapper.flip{
+    transform: rotateY(180deg);
+}
+
+.content{
+    width: 100%;
+    /* flex: flex; */
+    align-content: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    height: 400px;
+}
+
+.settings{
+    display: flex;
+    margin-left:35% ;
+    
+    /* float: right; */
+}
+/* Dynamic grid layout */
+/* .card-container.card-count-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .card-container.card-count-16 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .card-container.card-count-32 {
+    grid-template-columns: repeat(8, 1fr);
+  } */

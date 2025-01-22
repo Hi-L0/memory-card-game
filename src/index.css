@@ -1,0 +1,26 @@
+:root{
+  --hdr-gradient: linear-gradient(
+    226deg in oklab,
+    oklch(80% .4 222) 0%, oklch(35% .5 313) 84% 84%
+  );
+  /* --sdr-gradient: linear-gradient(226deg, #00dfff 0%, #8c00ea 84% 84%); */
+
+  /* --brat-gradient: linear-gradient(226deg, #FFF 0%, #B4DD13 84% 84%);
+  background: var(--brat-gradient); */
+ 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
