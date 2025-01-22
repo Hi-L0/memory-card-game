@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './frame.css'
 import Card from '../card/Card'
-import { cards } from '../../data/cards';
+// import { cards } from '../../data/cards';
 import Header from '../header/Header';
 import { ModeContext } from '../../contexts/ModeContext';
 import Setting from '../setting/Setting';
