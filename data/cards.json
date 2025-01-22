@@ -1,20 +1,20 @@
 {
     "cards": [
-    { "id": 1, "name": "1", "image": "/assets/img1.png", "isFlipped": false, "matched": false },
-    { "id": 2, "name": "1", "image": "/assets/img1.png", "isFlipped": false, "matched": false },
-    { "id": 3, "name": "2", "image": "/assets/img2.png", "isFlipped": false, "matched": false },
-    { "id": 4, "name": "2", "image": "/assets/img2.png", "isFlipped": false, "matched": false },
-    { "id": 5, "name": "3", "image": "/assets/img3.png", "isFlipped": false, "matched": false },
-    { "id": 6, "name": "3", "image": "/assets/img3.png", "isFlipped": false, "matched": false },
-    { "id": 7, "name": "4", "image": "/assets/img4.png", "isFlipped": false, "matched": false },
-    { "id": 8, "name": "4", "image": "/assets/img4.png", "isFlipped": false, "matched": false },
-    { "id": 9, "name": "5", "image": "/assets/img5.png", "isFlipped": false, "matched": false },
-    { "id": 10, "name": "5", "image": "/assets/img5.png", "isFlipped": false, "matched": false },
-    { "id": 11, "name": "6", "image": "/assets/img6.png", "isFlipped": false, "matched": false },
-    { "id": 12, "name": "6", "image": "/assets/img6.png", "isFlipped": false, "matched": false },
-    { "id": 13, "name": "7", "image": "/assets/img7.png", "isFlipped": false, "matched": false },
-    { "id": 14, "name": "7", "image": "/assets/img7.png", "isFlipped": false, "matched": false },
-    { "id": 15, "name": "8", "image": "/assets/img8.png", "isFlipped": false, "matched": false },
-    { "id": 16, "name": "8", "image": "/assets/img8.png", "isFlipped": false, "matched": false }
+    { "id": 1, "name": "1", "image": "assets/img1.png", "isFlipped": false, "matched": false },
+    { "id": 2, "name": "1", "image": "assets/img1.png", "isFlipped": false, "matched": false },
+    { "id": 3, "name": "2", "image": "assets/img2.png", "isFlipped": false, "matched": false },
+    { "id": 4, "name": "2", "image": "assets/img2.png", "isFlipped": false, "matched": false },
+    { "id": 5, "name": "3", "image": "assets/img3.png", "isFlipped": false, "matched": false },
+    { "id": 6, "name": "3", "image": "assets/img3.png", "isFlipped": false, "matched": false },
+    { "id": 7, "name": "4", "image": "assets/img4.png", "isFlipped": false, "matched": false },
+    { "id": 8, "name": "4", "image": "assets/img4.png", "isFlipped": false, "matched": false },
+    { "id": 9, "name": "5", "image": "assets/img5.png", "isFlipped": false, "matched": false },
+    { "id": 10, "name": "5", "image": "assets/img5.png", "isFlipped": false, "matched": false },
+    { "id": 11, "name": "6", "image": "assets/img6.png", "isFlipped": false, "matched": false },
+    { "id": 12, "name": "6", "image": "assets/img6.png", "isFlipped": false, "matched": false },
+    { "id": 13, "name": "7", "image": "assets/img7.png", "isFlipped": false, "matched": false },
+    { "id": 14, "name": "7", "image": "assets/img7.png", "isFlipped": false, "matched": false },
+    { "id": 15, "name": "8", "image": "assets/img8.png", "isFlipped": false, "matched": false },
+    { "id": 16, "name": "8", "image": "assets/img8.png", "isFlipped": false, "matched": false }
   ]
 }
