@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
-import ScoreTracker from '../../services/ScoreTracker'
 import { XIcon } from 'lucide-react'
-import { ModeContext } from '../../contexts/ModeContext'
+import {motion} from "motion/react"
+
 
 function ScoreHistory({close, scores}) {
   // const {clearScoreBoard} = ScoreTracker()
@@ -13,7 +13,7 @@ function ScoreHistory({close, scores}) {
   
 // console.log(scores)
   return (
-    <div style={{background:"#f0e4d6", width:"437px", height:"100vh", zIndex:"100",top:"0", position:"absolute",left:"70%",borderRadius:"5px", border:"1px solid black", transition:"ease-in", }}>
+    <motion.div initial={{x:200,opacity:0}} animate={{x:0,opacity:100}} style={{background:"#f0e4d6", width:"437px", height:"100vh", zIndex:"100",top:"0", position:"absolute",left:"70%",borderRadius:"5px", border:"1px solid black", transition:"ease-in", }}>
         {/* {scores} */}
         <header style={{display: "flex", justifyItems:"center", textAlign:'center', gap:"30%" }}>
           <div onClick={close} style={{cursor:"pointer"}}>
@@ -54,7 +54,7 @@ function ScoreHistory({close, scores}) {
         </table>
         </div>
         
-    </div>
+    </motion.div>
   )
 }
 
