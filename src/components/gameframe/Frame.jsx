@@ -182,7 +182,7 @@ function Frame({closeScoreBoard}) {
         if(mode == 16){
             setFrameWidth(800)
         }
-        else if(mode == 32){
+        else if(mode > 16){
             setFrameWidth(1200)
         }else{
             setFrameWidth(400)
