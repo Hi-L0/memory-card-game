@@ -11,7 +11,7 @@ function header({number_of_moves, reset,seconds, isDisabled}) {
           gap:"40%"
                   // justifyContent:"space-between",
                   }}>
-        <button style={{width:"25%",borderRadius:"5px", fontSize:"20px", fontWeight:"700", color:"white", backgroundColor:"gray", cursor:"pointer" }} onClick={reset} disabled={isDisabled}>
+        <button style={{width:"25%",borderRadius:"5px", fontSize:"20px", fontWeight:"700", color:`${isDisabled?"#c5c5c5":"#fff"}`, backgroundColor:"gray", cursor:"pointer" }} onClick={reset} disabled={isDisabled}>
           Start
         </button>
         <div style={{fontSize:"18px", fontWeight:"700"}}> 
